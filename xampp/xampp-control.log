@@ -1,0 +1,122 @@
+12:01:44  [main] 	Initializing Control Panel
+12:01:44  [main] 	Windows Version:  Home  64-bit
+12:01:44  [main] 	XAMPP Version: 5.6.40
+12:01:44  [main] 	Control Panel Version: 3.2.3  [ Compiled: Mar 7th 2019 ]
+12:01:44  [main] 	You are not running with administrator rights! This will work for
+12:01:44  [main] 	most application stuff but whenever you do something with services
+12:01:44  [main] 	there will be a security dialogue or things will break! So think 
+12:01:44  [main] 	about running this application with administrator rights!
+12:01:44  [main] 	XAMPP Installation Directory: "c:\xampp\"
+12:01:44  [main] 	Checking for prerequisites
+12:01:56  [main] 	All prerequisites found
+12:01:56  [main] 	Initializing Modules
+12:01:56  [mercury] 	Problem detected: Mercury Not Found!
+12:01:56  [mercury] 	Disabling Mercury buttons
+12:01:56  [mercury] 	Run this program from your XAMPP root directory!
+12:01:57  [main] 	Starting Check-Timer
+12:01:57  [main] 	Control Panel Ready
+12:02:02  [Apache] 	Attempting to start Apache app...
+12:02:06  [Apache] 	Status change detected: running
+12:02:21  [mysql] 	Attempting to start MySQL app...
+12:02:31  [mysql] 	Status change detected: running
+12:44:21  [mysql] 	Status change detected: stopped
+12:44:21  [mysql] 	Error: MySQL shutdown unexpectedly.
+12:44:21  [mysql] 	This may be due to a blocked port, missing dependencies, 
+12:44:21  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+12:44:21  [mysql] 	Press the Logs button to view error logs and check
+12:44:21  [mysql] 	the Windows Event Viewer for more clues
+12:44:21  [mysql] 	If you need more help, copy and post this
+12:44:21  [mysql] 	entire log window on the forums
+12:44:22  [mysql] 	Status change detected: running
+13:00:09  [Apache] 	Status change detected: stopped
+13:00:09  [Apache] 	Error: Apache shutdown unexpectedly.
+13:00:09  [Apache] 	This may be due to a blocked port, missing dependencies, 
+13:00:09  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+13:00:09  [Apache] 	Press the Logs button to view error logs and check
+13:00:09  [Apache] 	the Windows Event Viewer for more clues
+13:00:09  [Apache] 	If you need more help, copy and post this
+13:00:09  [Apache] 	entire log window on the forums
+13:00:10  [mysql] 	Status change detected: stopped
+13:00:10  [mysql] 	Error: MySQL shutdown unexpectedly.
+13:00:10  [mysql] 	This may be due to a blocked port, missing dependencies, 
+13:00:10  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+13:00:10  [mysql] 	Press the Logs button to view error logs and check
+13:00:10  [mysql] 	the Windows Event Viewer for more clues
+13:00:10  [mysql] 	If you need more help, copy and post this
+13:00:10  [mysql] 	entire log window on the forums
+11:00:22  [mysql] 	Status change detected: running
+11:11:39  [Apache] 	Status change detected: running
+11:59:58  [mysql] 	Status change detected: stopped
+11:59:58  [mysql] 	Error: MySQL shutdown unexpectedly.
+11:59:58  [mysql] 	This may be due to a blocked port, missing dependencies, 
+11:59:58  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+11:59:58  [mysql] 	Press the Logs button to view error logs and check
+11:59:58  [mysql] 	the Windows Event Viewer for more clues
+11:59:58  [mysql] 	If you need more help, copy and post this
+11:59:58  [mysql] 	entire log window on the forums
+12:00:00  [mysql] 	Status change detected: running
+15:49:44  [main] 	Deinitializing Modules
+15:49:44  [main] 	Deinitializing Control Panel
+
+10:45:57  [main] 	Initializing Control Panel
+10:45:57  [main] 	Windows Version:  Home  64-bit
+10:45:57  [main] 	XAMPP Version: 5.6.40
+10:45:57  [main] 	Control Panel Version: 3.2.3  [ Compiled: Mar 7th 2019 ]
+10:45:57  [main] 	You are not running with administrator rights! This will work for
+10:45:57  [main] 	most application stuff but whenever you do something with services
+10:45:57  [main] 	there will be a security dialogue or things will break! So think 
+10:45:57  [main] 	about running this application with administrator rights!
+10:45:57  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:45:57  [main] 	Checking for prerequisites
+10:46:17  [main] 	All prerequisites found
+10:46:17  [main] 	Initializing Modules
+10:46:17  [mercury] 	Problem detected: Mercury Not Found!
+10:46:17  [mercury] 	Disabling Mercury buttons
+10:46:17  [mercury] 	Run this program from your XAMPP root directory!
+10:46:17  [main] 	Starting Check-Timer
+10:46:18  [main] 	Control Panel Ready
+10:46:23  [Apache] 	Attempting to start Apache app...
+10:46:23  [Apache] 	Status change detected: running
+10:46:38  [mysql] 	Attempting to start MySQL app...
+10:46:39  [mysql] 	Status change detected: running
+11:07:52  [mysql] 	Attempting to stop MySQL app...
+11:07:52  [mysql] 	Status change detected: stopped
+11:07:54  [mysql] 	Attempting to start MySQL app...
+11:07:54  [mysql] 	Status change detected: running
+15:12:24  [mysql] 	Attempting to stop MySQL app...
+15:12:24  [mysql] 	Status change detected: stopped
+15:12:25  [Apache] 	Attempting to stop Apache (PID: 17620)
+15:12:25  [Apache] 	Attempting to stop Apache (PID: 17788)
+15:12:25  [Apache] 	Status change detected: stopped
+15:12:36  [main] 	Deinitializing Modules
+15:12:36  [main] 	Deinitializing Control Panel
+
+10:46:30  [main] 	Initializing Control Panel
+10:46:30  [main] 	Windows Version:  Home  64-bit
+10:46:30  [main] 	XAMPP Version: 5.6.40
+10:46:30  [main] 	Control Panel Version: 3.2.3  [ Compiled: Mar 7th 2019 ]
+10:46:30  [main] 	You are not running with administrator rights! This will work for
+10:46:30  [main] 	most application stuff but whenever you do something with services
+10:46:30  [main] 	there will be a security dialogue or things will break! So think 
+10:46:30  [main] 	about running this application with administrator rights!
+10:46:30  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:46:31  [main] 	Checking for prerequisites
+10:46:39  [main] 	All prerequisites found
+10:46:39  [main] 	Initializing Modules
+10:46:39  [mercury] 	Problem detected: Mercury Not Found!
+10:46:39  [mercury] 	Disabling Mercury buttons
+10:46:39  [mercury] 	Run this program from your XAMPP root directory!
+10:46:39  [main] 	Starting Check-Timer
+10:46:39  [main] 	Control Panel Ready
+10:46:44  [Apache] 	Attempting to start Apache app...
+10:46:45  [Apache] 	Status change detected: running
+10:46:52  [mysql] 	Attempting to start MySQL app...
+10:46:52  [mysql] 	Status change detected: running
+12:40:18  [mysql] 	Attempting to stop MySQL app...
+12:40:19  [mysql] 	Status change detected: stopped
+12:40:19  [Apache] 	Attempting to stop Apache (PID: 7444)
+12:40:19  [Apache] 	Attempting to stop Apache (PID: 17396)
+12:40:20  [Apache] 	Status change detected: stopped
+12:40:29  [main] 	Deinitializing Modules
+12:40:29  [main] 	Deinitializing Control Panel
+

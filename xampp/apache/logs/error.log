@@ -1,0 +1,135 @@
+[Thu Jul 30 11:52:09.921336 2020] [ssl:warn] [pid 9004:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 30 11:52:10.126322 2020] [ssl:warn] [pid 9004:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 30 11:52:10.194363 2020] [mpm_winnt:notice] [pid 9004:tid 580] AH00455: Apache/2.4.38 (Win64) OpenSSL/1.0.2q PHP/5.6.40 configured -- resuming normal operations
+[Thu Jul 30 11:52:10.194363 2020] [mpm_winnt:notice] [pid 9004:tid 580] AH00456: Apache Lounge VC11 Server built: Jan 21 2019 13:25:29
+[Thu Jul 30 11:52:10.194363 2020] [core:notice] [pid 9004:tid 580] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Jul 30 11:52:10.204497 2020] [mpm_winnt:notice] [pid 9004:tid 580] AH00418: Parent: Created child process 13692
+[Thu Jul 30 11:52:10.901352 2020] [ssl:warn] [pid 13692:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 30 11:52:11.157856 2020] [ssl:warn] [pid 13692:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 30 11:52:11.219206 2020] [mpm_winnt:notice] [pid 13692:tid 560] AH00354: Child: Starting 150 worker threads.
+[Thu Jul 30 12:02:41.587901 2020] [ssl:warn] [pid 9848:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 30 12:02:42.907183 2020] [core:warn] [pid 9848:tid 564] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jul 30 12:02:43.102903 2020] [ssl:warn] [pid 9848:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 30 12:03:01.893717 2020] [mpm_winnt:notice] [pid 9848:tid 564] AH00455: Apache/2.4.38 (Win64) OpenSSL/1.0.2q PHP/5.6.40 configured -- resuming normal operations
+[Thu Jul 30 12:03:01.893717 2020] [mpm_winnt:notice] [pid 9848:tid 564] AH00456: Apache Lounge VC11 Server built: Jan 21 2019 13:25:29
+[Thu Jul 30 12:03:01.893717 2020] [core:notice] [pid 9848:tid 564] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Jul 30 12:03:01.903307 2020] [mpm_winnt:notice] [pid 9848:tid 564] AH00418: Parent: Created child process 10400
+[Thu Jul 30 12:03:08.525130 2020] [ssl:warn] [pid 10400:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 30 12:03:09.196156 2020] [ssl:warn] [pid 10400:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 30 12:03:09.454579 2020] [mpm_winnt:notice] [pid 10400:tid 576] AH00354: Child: Starting 150 worker threads.
+[Thu Jul 30 12:04:51.121806 2020] [:error] [pid 10400:tid 1960] [client ::1:49815] script 'C:/xampp/htdocs/dashboard/test.php' not found or unable to stat
+[Thu Jul 30 12:05:14.604442 2020] [:error] [pid 10400:tid 1956] [client ::1:49833] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hiroshi'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\test.php on line 4
+[Thu Jul 30 12:05:14.605439 2020] [:error] [pid 10400:tid 1956] [client ::1:49833] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hiroshi'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\test.php on line 5
+[Thu Jul 30 12:05:14.607048 2020] [:error] [pid 10400:tid 1956] [client ::1:49833] PHP Notice:  Trying to get property of non-object in C:\\xampp\\htdocs\\test.php on line 7
+[Thu Jul 30 12:05:14.607048 2020] [:error] [pid 10400:tid 1956] [client ::1:49833] PHP Fatal error:  Call to a member function set_charset() on boolean in C:\\xampp\\htdocs\\test.php on line 14
+[Thu Jul 30 12:11:53.827281 2020] [:error] [pid 10400:tid 1960] [client ::1:49945] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hiroshi'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\test.php on line 4
+[Thu Jul 30 12:11:53.846408 2020] [:error] [pid 10400:tid 1960] [client ::1:49945] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hiroshi'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\test.php on line 5
+[Thu Jul 30 12:11:53.847747 2020] [:error] [pid 10400:tid 1960] [client ::1:49945] PHP Notice:  Trying to get property of non-object in C:\\xampp\\htdocs\\test.php on line 7
+[Thu Jul 30 12:11:53.847747 2020] [:error] [pid 10400:tid 1960] [client ::1:49945] PHP Fatal error:  Call to a member function set_charset() on boolean in C:\\xampp\\htdocs\\test.php on line 14
+[Thu Jul 30 12:11:56.307669 2020] [:error] [pid 10400:tid 1960] [client ::1:49945] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hiroshi'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\test.php on line 4
+[Thu Jul 30 12:11:56.308666 2020] [:error] [pid 10400:tid 1960] [client ::1:49945] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'hiroshi'@'localhost' (using password: YES) in C:\\xampp\\htdocs\\test.php on line 5
+[Thu Jul 30 12:11:56.309662 2020] [:error] [pid 10400:tid 1960] [client ::1:49945] PHP Notice:  Trying to get property of non-object in C:\\xampp\\htdocs\\test.php on line 7
+[Thu Jul 30 12:11:56.309662 2020] [:error] [pid 10400:tid 1960] [client ::1:49945] PHP Fatal error:  Call to a member function set_charset() on boolean in C:\\xampp\\htdocs\\test.php on line 14
+[Mon Aug 03 11:11:43.564403 2020] [ssl:warn] [pid 15160:tid 528] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 03 11:11:43.693759 2020] [core:warn] [pid 15160:tid 528] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Aug 03 11:11:43.897323 2020] [ssl:warn] [pid 15160:tid 528] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 03 11:11:44.756995 2020] [mpm_winnt:notice] [pid 15160:tid 528] AH00455: Apache/2.4.38 (Win64) OpenSSL/1.0.2q PHP/5.6.40 configured -- resuming normal operations
+[Mon Aug 03 11:11:44.756995 2020] [mpm_winnt:notice] [pid 15160:tid 528] AH00456: Apache Lounge VC11 Server built: Jan 21 2019 13:25:29
+[Mon Aug 03 11:11:44.756995 2020] [core:notice] [pid 15160:tid 528] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Aug 03 11:11:44.774014 2020] [mpm_winnt:notice] [pid 15160:tid 528] AH00418: Parent: Created child process 12552
+[Mon Aug 03 11:11:45.616307 2020] [ssl:warn] [pid 12552:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 03 11:11:45.944219 2020] [ssl:warn] [pid 12552:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 03 11:11:46.002883 2020] [mpm_winnt:notice] [pid 12552:tid 536] AH00354: Child: Starting 150 worker threads.
+[Mon Aug 03 11:53:58.795754 2020] [:error] [pid 12552:tid 1964] [client ::1:51430] PHP Notice:  Undefined property: stdClass::$coin in C:\\xampp\\htdocs\\test.php on line 33
+[Mon Aug 03 11:53:58.796757 2020] [:error] [pid 12552:tid 1964] [client ::1:51430] PHP Notice:  Undefined property: stdClass::$coin in C:\\xampp\\htdocs\\test.php on line 33
+[Mon Aug 03 11:53:58.796757 2020] [:error] [pid 12552:tid 1964] [client ::1:51430] PHP Notice:  Undefined property: stdClass::$coin in C:\\xampp\\htdocs\\test.php on line 33
+[Mon Aug 03 12:40:21.077372 2020] [:error] [pid 12552:tid 1964] [client ::1:51773] PHP Notice:  Use of undefined constant update_result - assumed 'update_result' in C:\\xampp\\htdocs\\test.php on line 44
+[Mon Aug 03 12:40:21.136680 2020] [:error] [pid 12552:tid 1964] [client ::1:51773] PHP Notice:  Use of undefined constant update_result - assumed 'update_result' in C:\\xampp\\htdocs\\test.php on line 44
+[Mon Aug 03 12:40:21.185700 2020] [:error] [pid 12552:tid 1964] [client ::1:51773] PHP Notice:  Use of undefined constant update_result - assumed 'update_result' in C:\\xampp\\htdocs\\test.php on line 44
+[Mon Aug 03 12:40:21.235134 2020] [:error] [pid 12552:tid 1964] [client ::1:51773] PHP Notice:  Use of undefined constant update_result - assumed 'update_result' in C:\\xampp\\htdocs\\test.php on line 44
+[Wed Aug 05 10:46:33.350890 2020] [ssl:warn] [pid 17620:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 05 10:46:34.651512 2020] [core:warn] [pid 17620:tid 620] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Aug 05 10:46:34.890458 2020] [ssl:warn] [pid 17620:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 05 10:46:38.050771 2020] [mpm_winnt:notice] [pid 17620:tid 620] AH00455: Apache/2.4.38 (Win64) OpenSSL/1.0.2q PHP/5.6.40 configured -- resuming normal operations
+[Wed Aug 05 10:46:38.050771 2020] [mpm_winnt:notice] [pid 17620:tid 620] AH00456: Apache Lounge VC11 Server built: Jan 21 2019 13:25:29
+[Wed Aug 05 10:46:38.050771 2020] [core:notice] [pid 17620:tid 620] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Aug 05 10:46:38.060579 2020] [mpm_winnt:notice] [pid 17620:tid 620] AH00418: Parent: Created child process 17788
+[Wed Aug 05 10:46:39.155056 2020] [ssl:warn] [pid 17788:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 05 10:46:39.623722 2020] [ssl:warn] [pid 17788:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Aug 05 10:46:39.726493 2020] [mpm_winnt:notice] [pid 17788:tid 544] AH00354: Child: Starting 150 worker threads.
+[Wed Aug 05 10:58:39.788124 2020] [access_compat:error] [pid 17788:tid 1960] [client ::1:55062] AH01797: client denied by server configuration: C:/xampp/htdocs/bahamut/application/views/welcome_message.php
+[Wed Aug 05 10:58:58.264306 2020] [access_compat:error] [pid 17788:tid 1960] [client ::1:55067] AH01797: client denied by server configuration: C:/xampp/htdocs/bahamut/application/
+[Wed Aug 05 10:59:08.053351 2020] [access_compat:error] [pid 17788:tid 1952] [client ::1:55066] AH01797: client denied by server configuration: C:/xampp/htdocs/bahamut/application/index.html
+[Wed Aug 05 12:09:01.594716 2020] [:error] [pid 17788:tid 1952] [client ::1:56533] script 'C:/xampp/htdocs/bahamut/User_info.php' not found or unable to stat
+[Wed Aug 05 12:17:53.759963 2020] [access_compat:error] [pid 17788:tid 1952] [client ::1:56588] AH01797: client denied by server configuration: C:/xampp/htdocs/bahamut/application/controllers/index.php
+[Wed Aug 05 12:22:57.593830 2020] [:error] [pid 17788:tid 1960] [client ::1:56624] script 'C:/xampp/htdocs/bahamut/user_info.php' not found or unable to stat
+[Wed Aug 05 14:03:47.230322 2020] [:error] [pid 17788:tid 1960] [client ::1:57073] PHP Parse error:  syntax error, unexpected 'get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:38.075672 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:38.975125 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:39.436363 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:39.706528 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:40.049952 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:40.407061 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:40.530486 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:40.775978 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:40.925221 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:41.171396 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:41.406381 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:41.541045 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:41.871214 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:42.090823 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:42.319687 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:42.454855 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:42.680396 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:42.886927 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:43.113817 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:43.269552 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:06:43.712177 2020] [:error] [pid 17788:tid 1952] [client ::1:57094] PHP Parse error:  syntax error, unexpected '_get_data' (T_STRING), expecting variable (T_VARIABLE) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 10
+[Wed Aug 05 14:08:45.185078 2020] [:error] [pid 17788:tid 1960] [client ::1:57127] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:10:03.111697 2020] [:error] [pid 17788:tid 1960] [client ::1:57140] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:11:35.731069 2020] [:error] [pid 17788:tid 1952] [client ::1:57195] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:11:36.389300 2020] [:error] [pid 17788:tid 1952] [client ::1:57195] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:11:36.689995 2020] [:error] [pid 17788:tid 1952] [client ::1:57195] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:11:36.865133 2020] [:error] [pid 17788:tid 1952] [client ::1:57195] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:11:37.144337 2020] [:error] [pid 17788:tid 1952] [client ::1:57195] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:33.271291 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:33.785443 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:34.012538 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:34.147342 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:34.424732 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:34.565866 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:34.819452 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:35.070294 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:35.288979 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:35.568097 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:35.969963 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:12:36.300365 2020] [:error] [pid 17788:tid 1952] [client ::1:57214] PHP Fatal error:  Cannot redeclare class User_info in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info.php on line 18
+[Wed Aug 05 14:17:11.525389 2020] [:error] [pid 17788:tid 1960] [client ::1:57335] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 3072 bytes) in C:\\xampp\\htdocs\\bahamut\\system\\core\\Loader.php on line 1122
+[Wed Aug 05 14:17:49.153539 2020] [:error] [pid 17788:tid 1960] [client ::1:57343] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 3072 bytes) in C:\\xampp\\htdocs\\bahamut\\system\\core\\Loader.php on line 1122
+[Thu Aug 06 10:46:50.288065 2020] [ssl:warn] [pid 7444:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 06 10:46:50.565711 2020] [core:warn] [pid 7444:tid 540] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Aug 06 10:46:50.845372 2020] [ssl:warn] [pid 7444:tid 540] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 06 10:46:51.702483 2020] [mpm_winnt:notice] [pid 7444:tid 540] AH00455: Apache/2.4.38 (Win64) OpenSSL/1.0.2q PHP/5.6.40 configured -- resuming normal operations
+[Thu Aug 06 10:46:51.702483 2020] [mpm_winnt:notice] [pid 7444:tid 540] AH00456: Apache Lounge VC11 Server built: Jan 21 2019 13:25:29
+[Thu Aug 06 10:46:51.702483 2020] [core:notice] [pid 7444:tid 540] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Aug 06 10:46:51.726758 2020] [mpm_winnt:notice] [pid 7444:tid 540] AH00418: Parent: Created child process 17396
+[Thu Aug 06 10:46:52.672796 2020] [ssl:warn] [pid 17396:tid 148] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 06 10:46:53.014383 2020] [ssl:warn] [pid 17396:tid 148] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 06 10:46:53.102113 2020] [mpm_winnt:notice] [pid 17396:tid 148] AH00354: Child: Starting 150 worker threads.
+[Thu Aug 06 12:17:25.976155 2020] [:error] [pid 17396:tid 1952] [client ::1:59326] PHP Parse error:  syntax error, unexpected 'saitou' (T_STRING) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info_model.php on line 52
+[Thu Aug 06 12:17:57.962873 2020] [:error] [pid 17396:tid 1960] [client ::1:59329] PHP Parse error:  syntax error, unexpected 'saitou' (T_STRING) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info_model.php on line 52
+[Thu Aug 06 12:17:59.280495 2020] [:error] [pid 17396:tid 1960] [client ::1:59329] PHP Parse error:  syntax error, unexpected 'saitou' (T_STRING) in C:\\xampp\\htdocs\\bahamut\\application\\models\\User_info_model.php on line 52
+[Mon Aug 17 10:45:03.489753 2020] [ssl:warn] [pid 9880:tid 524] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:45:04.286036 2020] [core:warn] [pid 9880:tid 524] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Aug 17 10:45:04.571623 2020] [ssl:warn] [pid 9880:tid 524] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:45:08.836305 2020] [mpm_winnt:notice] [pid 9880:tid 524] AH00455: Apache/2.4.38 (Win64) OpenSSL/1.0.2q PHP/5.6.40 configured -- resuming normal operations
+[Mon Aug 17 10:45:08.836305 2020] [mpm_winnt:notice] [pid 9880:tid 524] AH00456: Apache Lounge VC11 Server built: Jan 21 2019 13:25:29
+[Mon Aug 17 10:45:08.836305 2020] [core:notice] [pid 9880:tid 524] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Aug 17 10:45:09.175992 2020] [mpm_winnt:notice] [pid 9880:tid 524] AH00418: Parent: Created child process 4108
+[Mon Aug 17 10:45:11.224537 2020] [ssl:warn] [pid 4108:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:45:12.672993 2020] [ssl:warn] [pid 4108:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 17 10:45:12.807692 2020] [mpm_winnt:notice] [pid 4108:tid 652] AH00354: Child: Starting 150 worker threads.
+[Mon Aug 17 11:07:27.151543 2020] [:error] [pid 4108:tid 1944] [client ::1:60464] PHP Notice:  Undefined variable: result in C:\\xampp\\htdocs\\test.php on line 61
+[Mon Aug 17 11:07:27.207510 2020] [:error] [pid 4108:tid 1944] [client ::1:60464] PHP Fatal error:  Call to a member function close() on null in C:\\xampp\\htdocs\\test.php on line 61
+[Mon Aug 17 11:08:33.089463 2020] [:error] [pid 4108:tid 1956] [client ::1:60474] PHP Fatal error:  Call to a member function close() on boolean in C:\\xampp\\htdocs\\test.php on line 61
+[Mon Aug 17 11:15:48.944490 2020] [:error] [pid 4108:tid 1944] [client ::1:60556] PHP Fatal error:  Call to a member function close() on boolean in C:\\xampp\\htdocs\\test.php on line 61
