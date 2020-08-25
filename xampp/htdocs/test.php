@@ -1,13 +1,17 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8');
 
-$master_link	= mysqli_connect( 'localhost', 'hiroshi', 'hiroshi', 'auth', 3306 );
-$slave_link		= mysqli_connect( 'localhost', 'hiroshi', 'hiroshi', 'auth', 3306 );
+$master_link = null;
+$slave_link  = null;
 
-$master_link->set_charset( 'UTF-8' );
-$slave_link->set_charset( 'UTF-8' );
+try
+{
+	$master_link	= mysqli_connect( 'localhost', 'hiroshi', 'hiroshi', 'auth', 3306 );
+	$slave_link		= mysqli_connect( 'localhost', 'hiroshi', 'hiroshi', 'auth', 3306 );
 
-try{
+	$master_link->set_charset( 'UTF-8' );
+	$slave_link->set_charset( 'UTF-8' );
+
 	if ($master_link->connect_error)
 	{
 	    $sql_error = $master_link->connect_error;
